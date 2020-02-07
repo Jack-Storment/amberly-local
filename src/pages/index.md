@@ -1,16 +1,16 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: 'Great beer, here in Amberly.'
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Grab a drink and relax with friends at Amberly Local
+subheading: Amberly Local
 mainpitch:
-  title: Why Kaldi
+  title: Amberly Local
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Amberly Local is the second bar and restaurant in West Cary built by Matt
+    Ganzert. We believe that you shouldn't have to travel far for good,
+    affordable food and beer. That's why we have 20 drinks on tap and feature a
+    running restaurant  during open hours.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
