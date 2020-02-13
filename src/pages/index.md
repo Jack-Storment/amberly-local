@@ -12,52 +12,30 @@ mainpitch:
     affordable food and beer. That's why we have 20 drinks on tap and feature a
     running restaurant  during open hours.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Established in 2019, Amberly Local is the perfect spot to eat, drink and network.
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        We sell local beer from breweries such as Deep River, Trophy, Four Saints, Raliegh Brewing, Dssolvr Brewing, and more!
+    - image: /img/beer.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        We offer a small, but carefully curated selection of beer for every taste. No matter if you are looking for a local or domestic, you’ll find a beer to fall in love with in our shop.
     - image: /img/tutorials.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+        Love a cold beer or glass of wine but you also want a bite to eat? We've got you covered. We offer a full menu from our kitchen with Board & Bites, Sanwiches, Soup & Salad, as well as kids menu.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        We believe that good food, beer and wine has the power to bring people together. That’s why we decided to turn a corner of our restaurant into a cozy meeting space where you can hang out with fellow beer and wine lovers and even share a meal!
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Amberly Local is the ultimate spot for food, beer and wine lovers who want to connect over delicious food and drinks. We offer a full menu and the best drinks from local breweries/wineries as well as domestics!
 main:
-  heading: Great coffee with no compromises
+  heading: Great food, beer and wine with no compromises
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We hold our menu items to the highest standards.
+    That’s why we’re meticulous and transparent about each step of our beer and wine's
+    journey. We only purchase our drinks from the best local and domestic breweries and wineries.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
