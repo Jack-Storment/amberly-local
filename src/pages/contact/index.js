@@ -19,6 +19,7 @@ export default class Index extends React.Component {
   }
 
   handleSubmit = e => {
+    console.log(this.state);
     e.preventDefault()
     const form = e.target
     fetch('/', {
