@@ -1,6 +1,7 @@
 import React from 'react'
 import { navigate } from 'gatsby-link'
 import Layout from '../../components/Layout'
+import ReCAPTCHA from "react-google-recaptcha";
 
 function encode(data) {
   return Object.keys(data)
@@ -20,15 +21,20 @@ export default class Index extends React.Component {
 
   handleSubmit = e => {
     console.log(this.state);
+    if (!this.state.isValidated) {
+      return;
+    }
     e.preventDefault()
     const form = e.target
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
+    var url = new URL("https://v1ju2r76ka.execute-api.us-east-1.amazonaws.com/"), 
+    params = this.state
+    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+    fetch(url, {
+      method: 'GET',
+      headers: { 
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      mode: "no-cors",
     })
       .then(() => navigate(form.getAttribute('action')))
       .catch(error => alert(error))
@@ -117,8 +123,14 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
+                <ReCAPTCHA
+                  sitekey="6LeTeNoUAAAAAMxXgFpXe3KIzBeGntjwfM1MLsJk"
+                  onChange={ () => {
+                    this.setState({isValidated: true});
+                  }}
+                />
                 <div className="field">
-                  <button className="button is-link" type="submit">
+                  <button className="button is-link" type="submit" disabled={!this.state.isValidated}>
                     Send
                   </button>
                 </div>
