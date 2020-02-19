@@ -47,7 +47,9 @@ export default class Index extends React.Component {
           <div className="container">
             <div className="content">
               <h1>Catering Contact Form</h1>
-              <p>Looking to get food catered near Amberly Local? Please let us know your details below and we can get in touch!</p>
+              <p>Looking to get food catered near Amberly Local? Please let us know your contact information and a member of our team will 
+                get in touch with you as soon as possible.
+              </p>
               <form
                 name="contact"
                 method="post"
