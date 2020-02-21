@@ -3,7 +3,7 @@ templateKey: 'product-page'
 path: /products
 title: Our Beer
 image: /img/jumbotron.jpg
-heading: Great beer with a conscience
+heading: Great beer, right here at Amberly Local
 description: >-
   Amberly is the ultimate spot for beer lovers who want to learn about their
   quality beer and how it is brewed.
