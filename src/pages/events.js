@@ -6,12 +6,10 @@ import { FacebookProvider, Page } from 'react-facebook';
 
 export const EventPageTemplate = () => {
   return (
-        <div className="container">
-          <div style={{display: "flex", alignItems:"center", paddingLeft: "30rem", width:"100%"}}>
-            <FacebookProvider appId="650386135534204">
+        <div style={{display: "flex", alignItems:"center", width:"100%"}}>
+            <FacebookProvider appId="650386135534204" style="margin:auto;">
                 <Page href="https://www.facebook.com/amberlylocal/" tabs="events"/>
             </FacebookProvider>   
-          </div>
         </div>
   )
 }
