@@ -3,7 +3,7 @@ templateKey: index-page
 title: 'Great beer, here in Amberly.'
 image: /img/home-jumbotron.jpg
 heading: Grab a drink and relax with friends at Amberly Local
-subheading: Amberly Local
+subheading: Amberly Local, established 2019.
 mainpitch:
   title: Amberly Local
   description: >
