@@ -7,7 +7,7 @@ title: About us
 We are located on the corner of McCrimmon Parkway and Sand Pine Dr. right next to Pure Juicery Bar.
 
 ### Why Amberly?
-We chose Amberly because we believe good food and good beer brings people together. We believe community is important and Amberly Local is the perfect place to connect with neighbors, friends, or other people in the community over quality food and drink. 
+We chose Amberly because we believe good food and good beer brings people together. We believe community is important and Amberly Local is the perfect place to connect with neighbors, friends, or other people in the community over quality food and drink. The neighborhood feel is perfect for those within walking distance to come to Amberly Local and enjoy a beautiful day in the neighborhood with friends and family.
 
 ### Our food
 Whether it's boards & bites, sandwiches, soup or salad, and even a desert, we offer a wide selction of quality food made right here at Amberly Local.
