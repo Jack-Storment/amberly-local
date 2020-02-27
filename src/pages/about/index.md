@@ -1,19 +1,19 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: About us
 ---
-### Local Breweries
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Our location
+We are located on the corner of McCrimmon Parkway and Sand Pine Dr. right next to Pure Juicery Bar.
 
-### Fresh Kegs
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Why Amberly?
+We chose Amberly because we believe good food and good beer brings people together. We believe community is important and Amberly Local is the perfect place to connect with neighbors, friends, or other people in the community over quality food and drink. 
 
-### Open Draft
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Our food
+Whether it's boards & bites, sandwiches, soup or salad, and even a desert, we offer a wide selction of quality food made right here at Amberly Local.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### Our drinks
+Our drink menu is constatntly changing depending on the latest beer selection from local and domestic brewers. Check out our "Menu" tab to see a dynamic beer menu from Untappd.
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+### Our story
+First established in 2019, Amberly Local is the first full kitchen resturaunt and bar by Matt Ganzert. 
