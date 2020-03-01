@@ -24,6 +24,7 @@ export const BeerPageTemplate = () => {
                 >
                     Beer Menu
                 </h1>
+                
             </div>
             <div className="container">
                 Hello
@@ -31,7 +32,10 @@ export const BeerPageTemplate = () => {
             <section className="section section--gradient">
                 Hello
             </section>
+            <div id="menu-container"></div>
+ 
         </div>
+
   )
 }
 

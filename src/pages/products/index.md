@@ -13,13 +13,13 @@ intro:
        Boards & Bites
     - image: /img/coffee-gear.png
       text: >
-        Sandwiches
+        Snacks
     - image: /img/tutorials.png
       text: >
-        Soup & salads
+        Sandwiches
     - image: /img/meeting-space.png
       text: >
-        Snacks
+        Soups & salads
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
