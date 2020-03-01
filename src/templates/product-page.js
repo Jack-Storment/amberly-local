@@ -79,9 +79,7 @@ export const ProductPageTemplate = ({
                     </article>
                   </div>
                 </div>
-              </div>
-              <Testimonials testimonials={testimonials} />
-              <div
+              </div>              <div
                 className="full-width-image-container"
                 style={{
                   backgroundImage: `url(${
