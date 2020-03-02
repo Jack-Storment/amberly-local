@@ -25,22 +25,7 @@ export const WinePageTemplate = () => {
                     Wine Menu
                 </h1>
             </div>
-            <div className="container">
-                Wine by the glass:
-                <ul>
-                  <li>2018 Substance Cabernet Sauvignon | Washington, USA  10</li>
-                  <li>2018 Maipei Malbec | Mendoza, Argentina  8</li>
-                  <li>2018 Fernlands Sauvignon Blanc | Marlborough, New Zealand  8</li>
-                  <li>2018 Touzot Macon-Villages White | Burgundy, France  10</li>
-                  <li>Legado del Conde Albarino | Rias Biaxis, Spain  8</li>
-                  <li>2017 Bell Sauvignon Blanc | Napa, California  12</li>
-                  <li>2018 Bedrock Old Vine Zinfandel | California, USA  11</li>
-                  <li>* Monvin Bianco Prosecco |  6</li>
-                </ul>
-            </div>
-            <section className="section section--gradient">
-                *On draft
-            </section>
+              <div> <img src="/img/wine.jpg" alt="Wine Menu"></img></div>
         </div>
   )
 }
