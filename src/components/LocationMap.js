@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 
-const BeerEmoji = () => <div style={{fontSize: 50}}>🍻</div>;
+const BeerEmoji = () => <span role="img" ariaLabel="BeerIcon" style={{fontSize: 50}}>🍻</span>;
 
 class LocationMap extends Component {
     static defaultProps = {

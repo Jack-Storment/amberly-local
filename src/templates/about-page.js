@@ -18,6 +18,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
                 {title}
               </h2>
               <LocationMap/>
+              <br/>
               <PageContent className="content" content={content} />
             </div>
           </div>
