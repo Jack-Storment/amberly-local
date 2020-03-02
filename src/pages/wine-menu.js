@@ -4,7 +4,9 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
+
 export const WinePageTemplate = () => {
+  console.log(styles);
   return (
         <div>
             <div
@@ -25,16 +27,42 @@ export const WinePageTemplate = () => {
                     Wine Menu
                 </h1>
             </div>
-              <div> <img src="/img/wine.jpg" alt="Wine Menu"></img></div>
+        <section className="section">
+        <div className="row" id="wine">
+        <div className="column" id="container">
+          <ul>
+            <li style={styles.wine}>2018 Substance Cabernet Sauvignon | Washington, USA</li>
+            <li style={styles.wine}>2018 Maipei Malbec | Mendoza, Argentina</li>
+            <li style={styles.wine}>2018 Fernlands Sauvignon Blanc | Marlborough, New Zealand</li>
+            <li style={styles.wine}>2018 Touzot Macon-Villages White | Burgundy, France</li>
+            <li style={styles.wine}>Legado del Conde Albarino | Rias Biaxis, Spain</li>
+            <li style={styles.wine}>2017 Bell Sauvignon Blanc | Napa, California</li>
+            <li style={styles.wine}>2018 Bedrock Old Vine Zinfandel | California, USA</li>
+            <li style={styles.wine}>Monvin Bianco Prosecco*</li>
+            <li style={styles.wine}>*on draft</li>
+          </ul>
         </div>
+        </div>
+        </section>   
+        </div>
+        
   )
 }
 
-WinePageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+const styles = {
+  wine: {
+    fontWeight: 200,
+    fontFamily: "Advent Pro",
+    textAlign: center,
+    fontSize: 25
+  }
 }
+
+// WinePageTemplate.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   content: PropTypes.string,
+//   contentComponent: PropTypes.func,
+// }
 
 const WinePage = () => {
   return (
@@ -44,5 +72,6 @@ const WinePage = () => {
     </Layout>
   )
 }
+
 
 export default WinePage;
