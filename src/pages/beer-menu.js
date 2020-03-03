@@ -10,7 +10,7 @@ export const BeerPageTemplate = () => {
             <div
             className="full-width-image-container margin-top-0"
             style={{
-                backgroundImage: `url('/img/blog-index.jpg')`,
+                backgroundImage: `url('/img/beer-index.jpg')`,
             }}
             >
                 <h1
@@ -33,7 +33,9 @@ export const BeerPageTemplate = () => {
                 Hello
             </section>
             <div id="menu-container"></div>
- 
+            <div id="menu-container"></div>
+            <script
+            />
         </div>
 
   )
