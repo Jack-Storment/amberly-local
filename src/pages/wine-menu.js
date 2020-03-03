@@ -31,14 +31,14 @@ export const WinePageTemplate = () => {
         <div className="row" id="wine">
         <div className="column" id="container">
           <ul>
-            <li style={styles.wine}>2018 Substance Cabernet Sauvignon | Washington, USA</li>
-            <li style={styles.wine}>2018 Maipei Malbec | Mendoza, Argentina</li>
-            <li style={styles.wine}>2018 Fernlands Sauvignon Blanc | Marlborough, New Zealand</li>
-            <li style={styles.wine}>2018 Touzot Macon-Villages White | Burgundy, France</li>
-            <li style={styles.wine}>Legado del Conde Albarino | Rias Biaxis, Spain</li>
-            <li style={styles.wine}>2017 Bell Sauvignon Blanc | Napa, California</li>
-            <li style={styles.wine}>2018 Bedrock Old Vine Zinfandel | California, USA</li>
-            <li style={styles.wine}>Monvin Bianco Prosecco*</li>
+            <li style={styles.wine}>2018 Substance Cabernet Sauvignon | Washington, USA  10</li>
+            <li style={styles.wine}>2018 Maipei Malbec | Mendoza, Argentina  8</li>
+            <li style={styles.wine}>2018 Fernlands Sauvignon Blanc | Marlborough, New Zealand  8</li>
+            <li style={styles.wine}>2018 Touzot Macon-Villages White | Burgundy, France  10</li>
+            <li style={styles.wine}>Legado del Conde Albarino | Rias Biaxis, Spain  8</li>
+            <li style={styles.wine}>2017 Bell Sauvignon Blanc | Napa, California  12</li>
+            <li style={styles.wine}>2018 Bedrock Old Vine Zinfandel | California, USA  11</li>
+            <li style={styles.wine}>Monvin Bianco Prosecco*  6</li>
             <li style={styles.wine}>*on draft</li>
           </ul>
         </div>
@@ -53,7 +53,7 @@ const styles = {
   wine: {
     fontWeight: 200,
     fontFamily: "Advent Pro",
-    textAlign: center,
+    textAlign: "center",
     fontSize: 25
   }
 }
