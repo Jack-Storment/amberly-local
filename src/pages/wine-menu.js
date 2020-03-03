@@ -12,7 +12,7 @@ export const WinePageTemplate = () => {
             <div
             className="full-width-image-container margin-top-0"
             style={{
-                backgroundImage: `url('/img/blog-index.jpg')`,
+                backgroundImage: `url('/img/wine-index.jpg')`,
             }}
             >
                 <h1
