@@ -3,12 +3,12 @@ templateKey: 'product-page'
 path: /products
 title: Our Menu
 image: /img/jumbotron.jpg
-heading: Great food with no comprimises
+heading: Great food with no comprimises.
 description: >-
-  Amberly is the ultimate spot to connect over a quality meal with neighbors, friends and family.
+  Amberly is the ultimate spot to connect over a quality meal with neighbors, friends and family. See the full menu below!
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/board.png
       text: >
        Boards & Bites
     - image: /img/coffee-gear.png
@@ -17,7 +17,7 @@ intro:
     - image: /img/tutorials.png
       text: >
         Sandwiches
-    - image: /img/meeting-space.png
+    - image: /img/soup.png
       text: >
         Soups & salads
   heading: What we offer
