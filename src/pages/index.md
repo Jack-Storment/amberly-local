@@ -2,15 +2,14 @@
 templateKey: index-page
 title: 'Great beer, here in Amberly.'
 image: /img/home-jumbotron.jpg
-heading: Grab a drink and relax with friends at Amberly Local
-subheading: Amberly Local
+heading: Grab a drink and relax with friends at Amberly Local!
+subheading: Amberly Local, established in 2019.
 mainpitch:
   title: Amberly Local
   description: >
-    Amberly Local is the second bar and restaurant in West Cary built by Matt
-    Ganzert. We believe that you shouldn't have to travel far for good,
-    affordable food and beer. That's why we have 20 drinks on tap and feature a
-    running restaurant  during open hours.
+    Amberly Local is the second bar and first restaurant established in West Cary by Matt
+    Ganzert. We believe that you shouldn't have to travel far for quality,
+    affordable food and beer. That's why we have 20 drinks on tap and a full kitchen.
 description: >-
   Established in 2019, Amberly Local is the perfect spot to eat, drink and network.
 intro:

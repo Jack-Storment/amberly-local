@@ -3,7 +3,11 @@ templateKey: 'product-page'
 path: /products
 title: Our Menu
 image: /img/jumbotron.jpg
+<<<<<<< HEAD
 heading: Great food with no comprimises.
+=======
+heading: Great beer, right here at Amberly Local
+>>>>>>> master
 description: >-
   Amberly is the ultimate spot to connect over a quality meal with neighbors, friends and family. See the full menu below!
 intro:
