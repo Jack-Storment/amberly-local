@@ -13,9 +13,6 @@ We use Untappd to show how fresh our kegs our. Check out our "beer" tab to view 
 ### Local
 We believe food makes people happy and brings people together. We also believe in supporting local businesses and not having our products travel very far for optimal freshness. That's why we try our best to support North Carolina breweries, wineries and food producers.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some breweries. Advocates of direct trade practices promote direct communication and price negotiation between buyer and hop farmer, along with systems that encourage and incentivize quality.
-
 ### Supporting local businesses
 We want to truly empower the communities that bring amazing products to you. That’s why we try to support as many local farms, local businesses and breweries as possible. You can see the communities grow and learn more about beer on our blog.
 
