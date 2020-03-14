@@ -33,6 +33,7 @@
     "react-google-maps": "9.4.5",
     "react-google-recaptcha": "^2.0.1",
     "react-helmet": "^5.2.0",
+    "react-iframe": "^1.8.0",
     "uuid": "^3.2.1"
   },
   "keywords": [
