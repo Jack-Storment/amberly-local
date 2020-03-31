@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 'Great beer, here in Amberly.'
+title: "Great beer, here in Amberly."
 image: /img/home-jumbotron.jpg
 heading: Grab a drink and relax with friends at Amberly Local!
-subheading: 'Amberly Local, established in 2019.'
+subheading: "Amberly Local, established in 2019 by Matt Ganzert."
 mainpitch:
   title: Amberly Local
   description: >
@@ -43,7 +43,7 @@ intro:
     to connect over delicious food and drinks. We offer a full menu and the best
     drinks from local breweries/wineries as well as domestics!
 main:
-  heading: 'Great food, beer and wine with no compromises'
+  heading: "Great food, beer and wine with no compromises"
   description: >
     We hold our menu items to the highest standards. That’s why we’re meticulous
     and transparent about each step of our beer and wine's journey. We only
@@ -58,4 +58,3 @@ main:
     alt: Burger
     image: /img/iconfinder_01_burger_food_fast_unhealthy_3392471.png
 ---
-
