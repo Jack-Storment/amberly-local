@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.svg'
+import logo from '../img/fulllogo.jpg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,7 +41,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+              <img src={logo} alt="Kaldi" style={{ width: '65px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -59,23 +59,29 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/menu">
-                Menu
+              <Link className="navbar-item" to="/">
+                Home
               </Link>
               <Link className="navbar-item" to="/beer-menu">
-                Beer
+                Draft List
               </Link>
               <Link className="navbar-item" to="/wine-menu">
-                Wine
+                Wine List
               </Link>
+              <Link className="navbar-item" to="/menu">
+                Food Menu
+              </Link>
+              <a className="navbar-item" href="https://direct.chownow.com/order/17058/locations/24351">
+                Order Online
+              </a>
               <Link className="navbar-item" to="/catering">
                 Catering
               </Link>
               <Link className="navbar-item" to="/events">
                 Events
+              </Link>
+              <Link className="navbar-item" to="/about">
+                Team
               </Link>
             </div>    
           </div>
