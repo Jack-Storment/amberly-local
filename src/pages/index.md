@@ -43,7 +43,7 @@ intro:
     to connect over delicious food and drinks. We offer a full menu and the best
     drinks from local breweries/wineries as well as domestics!
 main:
-  heading: 'Great food, beer and wine with no compromises'
+  heading: "Great food, beer and wine with no compromises"
   description: >
     We hold our menu items to the highest standards. That’s why we’re meticulous
     and transparent about each step of our beer and wine's journey. We only
@@ -58,4 +58,3 @@ main:
     alt: Burger
     image: /img/iconfinder_01_burger_food_fast_unhealthy_3392471.png
 ---
-
