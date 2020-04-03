@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
+import localBuilding from '../img/localBuilding.jpg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -13,9 +13,9 @@ const Footer = class extends React.Component {
       <footer className="footer">
         <div className="content has-text-centered">
           <img
-            src={logo}
+            src={localBuilding}
             alt="Amberly Local"
-            style={{ width: '14em', height: '10em' }}
+            style={{ width: '14em' }}
           />
         </div>
         <div className="content has-text-centered">
@@ -30,8 +30,18 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
+                      <a className="navbar-item" href="https://direct.chownow.com/order/17058/locations/24351">
+                        Order Online
+                      </a>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/events">
+                        Events
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/about">
-                        About
+                        Team
                       </Link>
                     </li>
                   </ul>
@@ -40,6 +50,21 @@ const Footer = class extends React.Component {
               <div className="column is-4">
                 <section>
                   <ul className="menu-list">
+                    <li>
+                      <Link className="navbar-item" to="/beer-menu">
+                        Draft List
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/wine-menu">
+                        Wine List
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="navbar-item" to="/menu">
+                        Food Menu
+                      </Link>
+                    </li>
                     <li>
                       <Link className="navbar-item" to="/catering">
                         Catering
