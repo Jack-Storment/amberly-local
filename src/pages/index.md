@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: 'Great beer, here in Amberly.'
+title: 'CARY, NC'
 image: /img/home-jumbotron.jpg
 heading: Grab a drink and relax with friends at Amberly Local!
-subheading: 'Amberly Local, established in 2019.'
+subheading: 'BEER | WINE | FOOD'
 mainpitch:
   title: Amberly Local
   description: >
