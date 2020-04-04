@@ -18,7 +18,7 @@ export const WinePageTemplate = () => {
                 <h1
                   className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                   style={{
-                    color: 'white',
+                    color: 'black',
                     lineHeight: '1',
                     padding: '0.25em',
                   }}
