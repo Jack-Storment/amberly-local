@@ -21,6 +21,7 @@ export const WinePageTemplate = () => {
                     color: 'black',
                     lineHeight: '1',
                     padding: '0.25em',
+                    fontFamily: "Lulo"
                   }}
                 >
                     Wine Menu
@@ -51,7 +52,7 @@ export const WinePageTemplate = () => {
 const styles = {
   wine: {
     fontWeight: 200,
-    fontFamily: "Advent Pro",
+    fontFamily: "Lulo",
     textAlign: "center",
     fontSize: 25
   }
