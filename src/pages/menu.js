@@ -86,7 +86,7 @@ const MenuItem = (props) => {
 const styles = {
   header: {
     fontWeight: "bold",
-    fontFamily: "Serif",
+    fontFamily: "Lulo",
     textDecoration: "underline",
   },
   menuContainer: {
