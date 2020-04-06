@@ -1,9 +1,9 @@
 @font-face {
     font-family: "Lulo";
-    src: url("LuloCleanOne.otf");
+    src: url("./LuloCleanOne.otf");
 }
 
 @font-face {
     font-family: "LuloBold";
-    src: url("LuloBold.otf");
+    src: url("./LuloBold.otf");
 }

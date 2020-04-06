@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Amberly Local',
-    description:
-      'This website is the homepage of Amberly Local, a bar and cafe located at 718 Slash Pine Dr, Cary, NC 27519.',
+    description: 'This website is the homepage of Amberly Local, a bar and cafe located at 718 Slash Pine Dr, Cary, NC 27519.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,6 +12,13 @@ module.exports = {
       options: {
         path: `${__dirname}/static/img`,
         name: 'uploads',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        families: ["Lulo"],
+        families: ["/static/fonts/font.css"],
       },
     },
     {
@@ -34,8 +40,7 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [
-          {
+        plugins: [{
             resolve: 'gatsby-remark-relative-images',
             options: {
               name: 'uploads',
@@ -75,4 +80,3 @@ module.exports = {
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
-
