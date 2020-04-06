@@ -15,7 +15,14 @@ module.exports = {
         name: 'uploads',
       },
     },
-    
+          {
+       resolve: "gatsby-plugin-web-font-loader",
+       options: {
+          custom: {
+            families: ["Lulo"],
+            urls: ["/static/fonts/fonts.css"],
+          },
+       },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -23,15 +30,7 @@ module.exports = {
         name: 'pages',
       },
     },
-      {
-          resolve: "gatsby-plugin-web-font-loader",
-          options: {
-            custom: {
-              families: ["Lato, Dank Mono"],
-              urls: ["/fonts/fonts.css"],
-            },
-          },
-        },
+     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
