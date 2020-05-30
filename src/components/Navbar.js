@@ -93,7 +93,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={facebook} alt="Triangle Web Solutions" />
+                  <img src={facebook} alt="Triangle Web Solutionss" />
                 </span>
               </a>
               <a
