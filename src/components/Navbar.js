@@ -1,8 +1,9 @@
 import React from 'react'
-import {
-  Link
-} from 'gatsby'
-import logo from '../img/fulllogo.jpg'
+import { Link } from 'gatsby'
+import facebook from '../img/facebook-icon.png'
+import instagram from '../img/instagram-icon.png'
+import tws from '../img/tws-icon.svg'
+import logo from '../img/logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -12,113 +13,114 @@ const Navbar = class extends React.Component {
       navBarActiveClass: '',
     }
   }
-
   toggleHamburger = () => {
     // toggle the active boolean in the state
-    this.setState({
+    this.setState(
+      {
         active: !this.state.active,
       },
       // after state has been updated,
       () => {
         // set the class in state for the navbar accordingly
-        this.state.active ?
-          this.setState({
-            navBarActiveClass: 'is-active',
-          }) :
-          this.setState({
-            navBarActiveClass: '',
-          })
+        this.state.active
+          ? this.setState({
+              navBarActiveClass: 'is-active',
+            })
+          : this.setState({
+              navBarActiveClass: '',
+            })
       }
     )
   }
-
   render() {
-    return ( <
-      nav className = "navbar is-transparent"
-      role = "navigation"
-      aria - label = "main-navigation" >
-      <
-      div className = "container" >
-      <
-      div className = "navbar-brand" >
-      <
-      Link to = "/"
-      className = "navbar-item"
-      title = "Logo" >
-      <
-      img src = {
-        logo
-      }
-      alt = "Kaldi"
-      style = {
-        {
-          width: '65px'
-        }
-      }
-      /> <
-      /Link> {
-        /* Hamburger menu */ } <
-      div className = {
-        `navbar-burger burger ${this.state.navBarActiveClass}`
-      }
-      data - target = "navMenu"
-      onClick = {
-        () => this.toggleHamburger()
-      } >
-      <
-      span / >
-      <
-      span / >
-      <
-      span / >
-      <
-      /div> <
-      /div> <
-      div id = "navMenu"
-      className = {
-        `navbar-menu ${this.state.navBarActiveClass}`
-      } >
-      <
-      div className = "navbar-start has-text-centered" >
-      <
-      Link className = "navbar-item"
-      to = "/" >
-      Home <
-      /Link> <
-      Link className = "navbar-item"
-      to = "/beer-menu" >
-      Draft List <
-      /Link> <
-      Link className = "navbar-item"
-      to = "/wine-menu" >
-      Wine List <
-      /Link> <
-      Link className = "navbar-item"
-      to = "/menu" >
-      Food Menu <
-      /Link> <
-      a className = "navbar-item"
-      href = "https://direct.chownow.com/order/17058/locations/24351" >
-      Order Online <
-      /a> <
-      Link className = "navbar-item"
-      to = "/catering" >
-      Catering <
-      /Link> <
-      Link className = "navbar-item"
-      to = "/events" >
-      Events <
-      /Link> <
-      Link className = "navbar-item"
-      to = "/about" >
-      About us <
-      /Link> <
-      /div>     <
-      /div> <
-      /div> <
-      /nav>
+    return (
+      <nav
+        className="navbar is-transparent"
+        role="navigation"
+        aria-label="main-navigation"
+      >
+        <div className="container">
+          <div className="navbar-brand">
+            <Link to="/" className="navbar-item" title="Logo">
+              <img src={logo} alt="Taylored Audio" style={{ width: '88px' }} />
+            </Link>
+            {/* Hamburger menu */}
+            <div
+              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              data-target="navMenu"
+              onClick={() => this.toggleHamburger()}
+            >
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+          <div
+            id="navMenu"
+            className={`navbar-menu ${this.state.navBarActiveClass}`}
+          >
+            <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/">
+                Home
+              </Link>
+              <Link className="navbar-item" to="/beer-menu">
+                Draft List
+              </Link>
+              <Link className="navbar-item" to="/wine-menu">
+                Wine List
+              </Link>
+              <Link className="navbar-item" to="/menu">
+                Food Menu
+              </Link>
+              <a className="navbar-item" href="https://direct.chownow.com/order/17058/locations/24351">
+                Order Online
+              </a>
+              <Link className="navbar-item" to="/catering">
+                Catering
+              </Link>
+              <Link className="navbar-item" to="/events">
+                Events
+              </Link>
+              <Link className="navbar-item" to="/about">
+                Team
+              </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
+              <a
+                className="navbar-item"
+                href="https://www.facebook.com/amberlylocal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={facebook} alt="Triangle Web Solutions" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://www.instagram.com/amberly_local/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={instagram} alt="Triangle Web Solutions" />
+                </span>
+              </a>
+              <a
+                className="navbar-item"
+                href="https://triangleweb.solutions"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon">
+                  <img src={tws} alt="Triangle Web Solutions" />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
     )
   }
 }
-
 export default Navbar
