@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Amberly Local',
+    title: 'Connect',
     description: 'This website is the homepage of Amberly Local, a bar and cafe located at 718 Slash Pine Dr, Cary, NC 27519.',
   },
   plugins: [
