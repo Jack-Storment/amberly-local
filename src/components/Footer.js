@@ -19,7 +19,7 @@ const Footer = class extends React.Component {
       img src = {
         localBuilding
       }
-      alt = "Amberly Local"
+      alt = "Connect"
       style = {
         {
           width: '14em'
