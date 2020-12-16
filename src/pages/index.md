@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: Grab a drink and relax with friends at Amberly Local!
 subheading: 'BEER | WINE | FOOD'
 mainpitch:
-  title: Amberly Local
+  title: Connect Real Estate
   description: >
     Amberly Local is the second bar and first restaurant established in West
     Cary by Matt Ganzert. We believe that you shouldn't have to travel far for
