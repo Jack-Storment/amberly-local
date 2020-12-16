@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: 'CARY, NC'
+title: 'CONNECT'
 image: /img/home-jumbotron.jpg
 heading: We Make it Easy for You to Be the Clear Choice to Your ideal Real Estate Audience.
 subheading: 'We Make it Easy for You to Be the Clear Choice to Your ideal Real Estate Audience.'
