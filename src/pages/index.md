@@ -2,7 +2,7 @@
 templateKey: index-page
 title: 'CARY, NC'
 image: /img/home-jumbotron.jpg
-heading: Grab a drink and relax with friends at Amberly Local!
+heading: We Make it Easy for You to Be the Clear Choice to Your ideal Real Estate Audience.
 subheading: 'BEER | WINE | FOOD'
 mainpitch:
   title: Connect Real Estate
