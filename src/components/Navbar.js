@@ -64,19 +64,10 @@ const Navbar = class extends React.Component {
                 Home
               </Link>
               <Link className="navbar-item" to="/beer-menu">
-                Draft List
+                Resources
               </Link>
               <Link className="navbar-item" to="/wine-menu">
-                Wine List
-              </Link>
-              <Link className="navbar-item" to="/menu">
-                Food Menu
-              </Link>
-              <a className="navbar-item" href="https://direct.chownow.com/order/17058/locations/24351">
-                Order Online
-              </a>
-              <Link className="navbar-item" to="/catering">
-                Catering
+                Services
               </Link>
               <Link className="navbar-item" to="/events">
                 Events
