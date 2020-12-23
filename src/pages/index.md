@@ -9,8 +9,7 @@ mainpitch:
   description: >
     Be the Team Agents Love Being On and Clients Love Telling Their Friends About.
 description: >-
-  Established in 2019, Amberly Local is the perfect spot to eat, drink and
-  network.
+  We Make it Easy for You to Consistently Deliver Valuable Emails, Retargeted Ads, Videos, and Posts to Get Your Audience Sold By Themselves on Your Real Estate Services.
 intro:
   blurbs:
     - image: /img/iconfinder_11_glass_beer_party_drink_beverages_3392481.png
