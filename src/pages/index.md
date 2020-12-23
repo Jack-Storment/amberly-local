@@ -7,10 +7,7 @@ subheading: 'We Make it Easy for You to Be the Clear Choice to Your ideal Real E
 mainpitch:
   title: Connect Real Estate
   description: >
-    Amberly Local is the second bar and first restaurant established in West
-    Cary by Matt Ganzert. We believe that you shouldn't have to travel far for
-    quality, affordable food and beer. That's why we have 20 drinks on tap and a
-    full kitchen.
+    Be the Team Agents Love Being On and Clients Love Telling Their Friends About.
 description: >-
   Established in 2019, Amberly Local is the perfect spot to eat, drink and
   network.
