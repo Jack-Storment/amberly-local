@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: We Make it Easy for You to Be the Clear Choice to Your ideal Real Estate Audience.
 subheading: 'We Make it Easy for You to Be the Clear Choice to Your ideal Real Estate Audience.'
 mainpitch:
-  title: Connect Real Estate, LLC.
+  title: Connect Real Estate, LLC
   description: >
     Be the Team Agents Love Being On and Clients Love Telling Their Friends About.
 description: >-
